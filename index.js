@@ -12,6 +12,7 @@ const path = require("path");
 
 const multer = require("multer");
 dotenv.config();
+
 app.use(express.json());
 app.use(cors());
 // --------------------------file upload 관련------------------------------
