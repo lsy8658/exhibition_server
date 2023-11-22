@@ -15,6 +15,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors());
+
 // --------------------------file upload 관련------------------------------
 app.use("/image", express.static(path.join(__dirname, "/image")));
 
